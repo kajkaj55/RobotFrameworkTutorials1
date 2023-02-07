@@ -1,0 +1,7 @@
+${TC};${username};${password}
+Right user empty psw;admin@yourstore.com;${EMPTY}
+Right user wrong psw;admin@yourstore.com;hallo
+Wrong user right psw;xyz@yourstore.com;admin
+Wrong user empty psw;xyz@yourstore.com;${EMPTY}
+Wrong user wrong psw;xyz@yourstore.com;hallo
+Empty user empty psw;${EMPTY};${EMPTY}
